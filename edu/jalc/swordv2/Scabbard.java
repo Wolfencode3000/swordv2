@@ -17,5 +17,18 @@ public class Scabbard {
       this.coatOfArms = coatOfArms;
       this.rgbColor = rgbColor;
    }
-
+   
+   public CoatOfArms getCoatOfArms(){
+      return this.coatOfArms;
+   }
+   
+   public RGBColor getRGBColor(){
+      return this.rgbColor;
+   }
+   
+   public Scabbard setCoatOfArms(CoatOfArms coatOfArms){
+      this.coatOfArms = coatOfArms;
+      return this;
+   }
+     
 }

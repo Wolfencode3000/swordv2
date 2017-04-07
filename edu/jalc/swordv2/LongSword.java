@@ -49,5 +49,27 @@ public class LongSword implements Slash, Thrust, Cleave, Parry, Sheath {
       System.out.println("Unsheath Longsword from scabbard");
    }
 
+   public Hilt getHilt(){
+      return this.hilt;
+   }
+   
+   public Blade getBlade(){
+      return this.blade;
+   }
+   
+   public Scabbard getScabbard(){
+      return this.scabbard;
+   }
+   
+   public LongSword setHilt(Hilt hilt){
+      this.hilt = hilt;
+      return this;
+   }
+   
+   public LongSword setScabbard(Scabbard scabbard){
+      this.scabbard = scabbard;
+      return this;
+   }
+
 
 }
